@@ -1,41 +1,71 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
-body {
-  margin: 0;
-     }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap');
 
 
 
-h1 {
-    text-align: center;
+:root {
+    --primary-color:
+    --secondary-color:
+    --white-color: #fff;
+    --black-color: #3f3b51;
+}
+
+.body{
+    font-family: 'Roboto' sans-serif;
+}
+
+.section{
+    height: 100vh;
+}
+
+.menu_wrapper{
+    background-color: var(--white-color);
+    padding: 15px 0;
+}
+
+.menu_wrapper .navbar-brand img{
+    width: 300px;
+
+}
+
+/* Mega Menu */
+
+.dropdown-mega .dropdown-menu{
+    width: 100%;
+}
+
+.dropdown-mega .h5{
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(0,0,0, .125);
     margin: 0;
 }
 
-p {
-    margin: 0px;
-}
-
-
-/****** CLASS SELECTORS ******/
-
-.heading-top-left {
-    height: 100px;
-    width: 20%;
-    display: inline-block;
-    position: relative;
-}
-
-.img {
-    max-width: 100%;
-    max-height: 100%;
+.dropdown-mega .list-group-item{
+    font-size: 1rem;
+    color: var(--black-color);
     border: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    border-bottom: 1px solid rgba(0,0,0, .125);
+    padding: 12px 0;
 }
 
-.logo-header {
-    height: 30px;
+.dropdown-mega .list-group-item:hover{
+    color: var(--primary-color);
+}
+
+/* Responsive */
+
+@media (max-width: 991px){
+    .menu_wrapper .navbar-brand img{
+        width: 120px;
+    }
+    .navbar-collapse{
+        padding-top: 25px;
+    }
+    .navbar-nav .nav-item{
+        margin: 5px 10px;
+    }
+
+    form{
+        margin: 30px 0;
+    }
 }
