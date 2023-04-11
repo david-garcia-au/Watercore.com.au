@@ -1,7 +1,8 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap');
-
-
+@font-face {
+    font-family: Archive;
+    src: url(../fonts/Archive.woff);
+  }
 
 :root {
     --primary-color:
@@ -10,25 +11,68 @@
     --black-color: #3f3b51;
 }
 
-.body{
-    font-family: 'Roboto' sans-serif;
+,body{
+    font-family: 'Roboto, sans-serif';
 }
+
 
 .section{
     height: 100vh;
 }
 
 .menu_wrapper{
+    font-size: 1rem;
     background-color: var(--white-color);
-    padding: 15px 0;
+    padding: 0px 0;
 }
 
 .menu_wrapper .navbar-brand img{
     width: 300px;
 
 }
+/* Estilos de Secciones */
+#title {
+    font: 'Arial';
+    background-color: white;
+    text-align: center;
+}
+.header-image{
+    object-fit: cover;
+    width:100%;
+
+}
+
+/* Estilos de Texto */
+
+.page-h1{
+    font-family: 'Encode-Sans, sans-serif';  
+    font-size: 30rem;  
+    line-height: 1.5;  
+    font-weight: 900;
+}
+
+h1 {
+    font-family: Archive;
+    font-size: 2.4rem;
+    line-height: 1;
+    color: #405464;
+}
+
+.header-image{
+    height: 400px; 
+    object-fit: cover; 
+    object-position: 50% 30%; 
+    border-radius: 25px;  
+    border: 5px solid #34b4fc;"
+}
 
 /* Mega Menu */
+
+.nav-link{
+    font-family: Archive;
+    font-size: 1rem;
+    color: #34b4fc;
+}
 
 .dropdown-mega .dropdown-menu{
     width: 100%;
@@ -41,8 +85,8 @@
 }
 
 .dropdown-mega .list-group-item{
-    font-size: 1rem;
-    color: var(--black-color);
+    font-size: 0.9rem;
+    color: #405464;
     border: 0;
     border-bottom: 1px solid rgba(0,0,0, .125);
     padding: 12px 0;
@@ -56,7 +100,7 @@
 
 @media (max-width: 991px){
     .menu_wrapper .navbar-brand img{
-        width: 120px;
+        width: 240px;
     }
     .navbar-collapse{
         padding-top: 25px;
