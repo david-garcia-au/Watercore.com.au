@@ -58,12 +58,30 @@ h1 {
     color: #2d4a62;
 }
 
+h2 {
+    font-family: Archive;
+    font-size: 2rem;
+    line-height: 1;
+    color: #2d4a62;
+}
+
+
 .header-image{
     height: 400px; 
     object-fit: cover; 
     object-position: 50% 30%; 
     border-radius: 25px;  
     border: 5px solid #34b4fc;"
+    position: relative;
+    filter: brightness(60%);
+}
+
+.image-text-center{
+        color:white;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
 }
 
 /* Mega Menu */
