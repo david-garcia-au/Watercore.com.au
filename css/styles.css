@@ -90,11 +90,17 @@ p {
 
 /* Mega Menu */
 
+/* Nav-Item me permite modificar la distancia entre los elementos del menu con padding */
 .nav-item{
-    font-family: Verdana, sans-serif;
-    font-size: 1rem;
-    color: #34b4fc;
     padding: 0 10px;
+}
+
+/* Nav-Link me permite modificar la fuente de los elementos del menu */
+.nav-link{
+    font-family: Archive;
+    font-weight: 200;
+    font-size: 1.1rem;
+    color: #34b4fc;
 }
 
 .dropdown-mega .dropdown-menu{
