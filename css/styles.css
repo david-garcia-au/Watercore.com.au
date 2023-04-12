@@ -16,32 +16,7 @@
     height: 100vh;
 }
 
-.menu_wrapper{
-    font-size: 1rem;
-    background-color: var(--white-color);
-    padding: 0px 0;
-}
-
-.menu_wrapper .navbar-brand img{
-    width: 300px;
-
-}
-/* Estilos de Secciones */
-
-.header-image{
-    object-fit: cover;
-    width:100%;
-
-}
-
 /* Estilos de Texto */
-
-.page-h1{
-    font-family: 'Encode-Sans, sans-serif';  
-    font-size: 30rem;  
-    line-height: 1.5;  
-    font-weight: 900;
-}
 
 h1 {
     font-family: Archive;
@@ -67,8 +42,9 @@ p {
     text-align: justify;
 }
 
-.intercont{
-    margin-top: 20px;
+/* intersection is a class to define the distance between two sections */
+.intersection{
+    margin-top: 35px;
 }
 
 .header-image{
@@ -78,7 +54,9 @@ p {
     border-radius: 25px;  
     position: relative;
     filter: brightness(90%);
+    width:100%;
 }
+
 
 .image-text-center{
         color:white;
@@ -86,6 +64,12 @@ p {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        font-family: Archive;
+        font-size: 2.2rem;
+}
+
+.general-button{
+
 }
 
 /* Mega Menu */
@@ -125,11 +109,20 @@ p {
     color: var(--primary-color);
 }
 
+.menu_wrapper{
+    font-size: 1rem;
+    background-color: var(--white-color);
+    padding: 0px 0;
+}
+
+.menu_wrapper .navbar-brand img{
+    width: 220px;
+}
 /* Responsive */
 
 @media (max-width: 991px){
     .menu_wrapper .navbar-brand img{
-        width: 240px;
+        width: 150px;
     }
     .navbar-collapse{
         padding-top: 25px;
@@ -141,4 +134,22 @@ p {
     form{
         margin: 30px 0;
     }
+
+    h1 {
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .header-image{
+        height: 300px; 
+    }
+
+    .image-text-center{
+        font-size: 1.3rem;
+}
 }
