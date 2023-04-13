@@ -118,6 +118,11 @@ p {
 .menu_wrapper .navbar-brand img{
     width: 220px;
 }
+
+.modal-backdrop
+{
+    opacity:0.6 !important;
+}
 /* Responsive */
 
 @media (max-width: 991px){
