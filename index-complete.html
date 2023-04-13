@@ -11,7 +11,12 @@
     $(function(){ 
       $("#header").load("cmn/header.html");  
       $("#footer").load("cmn/footer.html");  
+      $("#contact-form").load("cmn/contact-form.html"); 
     }); 
+
+    $('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+    })
     </script> 
     <link rel="stylesheet" href="css/styles.css">
   </head>
@@ -122,7 +127,13 @@
         <div class="col-lg-3 col-md-6 col-sd-12" style="page-H3"> Col 4 apartado </div>
       </div>
 
- 
+      <!-- Button trigger modal -->
+      <button type="button" class=" btn btn-primary " id="" data-bs-toggle="modal" data-bs-target="#exampleModal"> Your Button Here</button>
+
+
+
+
+      
       <footer class="pt-4 my-md-5 pt-md-5 border-top">
         <div class="row">
           <div class="col-12 col-md">
