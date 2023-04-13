@@ -120,9 +120,10 @@ p {
 }
 
 .modal-backdrop{
-    background-color: red;
-    opacity:0.6 !important;
+    background-color: hsla(209, 51%, 48%, 0.484);
+    opacity:0.6;
 }
+
 /* Responsive */
 
 @media (max-width: 991px){
