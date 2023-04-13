@@ -11,22 +11,59 @@
       </head>
       
       <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                    ...
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="exampleModalLabel">
+                      <div><img src="images/watercore Logo-grey-rectangular.png" style="width: 200px;" alt="Watercore water filtration" class="img"></div>
+                      <div> Thank you for reaching out ! </div></h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body ">
+                  <form>
+                   <div class="row">
+                    <div class="col-6 ">
+                      <label for="name"> </label>
+                      <input type="text" class="form-control" id="name" placeholder="Name *">
+                    </div>
+                    <div class="col-6 ">
+                      <label for="surname"> </label>
+                      <input type="text" class="form-control" id="surname" placeholder="Surname *">
+                    </div>
+                  </div>
+                    <div class="row">
+                      <div class="col-6 ">
+                      <label for="InputEmail1"> </label>
+                      <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Email address *">
+                      </div>
+                      <div class="col-6">
+                      <label for="phone-number"> </label>
+                     <input type="text" class="form-control" id="phone-number" placeholder="Phone number">
+                    </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-6">
+                      <label for="state"> </label>
+                      <input type="text" class="form-control" id="state" placeholder="State/Territory *">
+                      </div>
+                      <div class="col-6">
+                        <label for="region"> </label>
+                        <input type="text" class="form-control" id="region" placeholder="City/Region *">
+                      </div>
+                    </div>
+                    <div class="form-row">   
+                      <label for="message-text"> </label>
+                     <textarea class="form-control" id="message-text" placeholder="How can we help? *"></textarea>
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
             </div>
         </div>
-    </div>
-  </div>
+      </div>
 
 </html>
