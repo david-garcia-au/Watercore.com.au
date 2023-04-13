@@ -119,8 +119,8 @@ p {
     width: 220px;
 }
 
-.modal-backdrop
-{
+.modal-backdrop{
+    background-color: red;
     opacity:0.6 !important;
 }
 /* Responsive */
