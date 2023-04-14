@@ -14,9 +14,6 @@
       $("#contact-form").load("cmn/contact-form.html"); 
     }); 
 
-    $('#myModal').on('shown.bs.modal', function () {
-    $('#myInput').trigger('focus')
-    })
 
     </script>  
     <link rel="stylesheet" href="css/styles.css">
@@ -47,6 +44,7 @@
     </div>
 
     <!-- Button trigger modal -->
+    <button type="button" class=" btn btn-primary " id="" data-bs-toggle="modal" data-bs-target="#exampleModal"> Your Button Here</button>
     <div id="contact-form"></div> 
     <div id="footer"></div> 
       </body>
