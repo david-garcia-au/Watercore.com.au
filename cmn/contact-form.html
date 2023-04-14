@@ -21,57 +21,60 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body ">
-                    <form action="https://formsubmit.co/david.garcia.au@gmail.com" method="POST">
-                        <div class="row">
+                        <!-- Comienza el Form -->
+                        <form action="https://formsubmit.co/dgarcia@watercore.com.au" method="POST">
+                          <div class="row">
                     <div class="col-6 ">
                       <label for="name"> </label>
-                      <input type="text" class="form-control" id="name" placeholder="Name *">
+                      <input type="text" class="form-control" id="name" placeholder="Name *" name="Nombre">
                     </div>
                     <div class="col-6 ">
                       <label for="surname"> </label>
-                      <input type="text" class="form-control" id="surname" placeholder="Surname *">
+                      <input type="text" class="form-control" id="surname" placeholder="Surname *" name="Apellido">
                     </div>
                   </div>
                     <div class="row">
                       <div class="col-6 ">
                       <label for="InputEmail1"> </label>
-                      <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Email address *">
+                      <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Email address *" name="email-address">
                       </div>
                       <div class="col-6">
                       <label for="phone-number"> </label>
-                     <input type="text" class="form-control" id="phone-number" placeholder="Phone number">
+                     <input type="text" class="form-control" id="phone-number" placeholder="Phone number" name="telefono">
                     </div>
                     </div>
                     <div class="row">
                       <div class="col-6">
                       <label for="state"> </label>
-                      <input type="text" class="form-control" id="state" placeholder="State/Territory *">
+                      <input type="text" class="form-control" id="state" placeholder="State/Territory *" name="estado">
                       </div>
                       <div class="col-6">
                         <label for="region"> </label>
-                        <input type="text" class="form-control" id="region" placeholder="City/Region *">
+                        <input type="text" class="form-control" id="region" placeholder="City/Region *" name="ciudad">
                       </div>
                     </div>
                     <div class="form-row">   
                       <label for="message-text"> </label>
-                     <textarea class="form-control" id="message-text" placeholder="How can we help? *"></textarea>
+                     <textarea class="form-control" id="message-text" placeholder="How can we help? *" name="texto"></textarea>
+                     <label for="message-text"> </label>
                     </div>
                     <div class="form-group">
-                        <div class="form-check">
-                          
-                          <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                          <label class="form-check-label" for="invalidCheck2">
-                            I agree to Watercore terms and conditions
-                          </label>
-                        </div>
+                      <div class="form-check">
+                        
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                        <label class="form-check-label" for="invalidCheck2">
+                          I agree to Watercore terms and conditions
+                        </label>
                       </div>
+                    </div>
                   </form>
                 </div>
                 <div class="modal-footer">
-                    <input type="submit" name="submit" class="btn btn-primary">
+                  <!-- Anadimos el reCaptcha -->
+                  <button type="submit">Send</button>
+                                <!--  <button type="submit" class="btn btn-primary">Submit</button> -->
                 </div>
             </div>
         </div>
       </div>
-
 </html>
