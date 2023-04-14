@@ -14,6 +14,10 @@
       $("#contact-form").load("cmn/contact-form.html"); 
     }); 
 
+    $('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+    })
+
     </script>  
     <link rel="stylesheet" href="css/styles.css">
   </head>
